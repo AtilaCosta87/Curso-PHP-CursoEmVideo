@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="_css/estilo.css"/>
+    <meta charset="UTF-8"/>
+    <title>Curso de PHP - CursoemVideo.com</title>
+	<style>
+		.botao{
+			padding:4px;
+			width:80px;
+			border-top-width: 2px;
+			border-right-width: 2px;
+			border-bottom-width: 2px;
+			border-left-width: 2px;
+			border-bottom-style: solid;
+			border-top-color: #848484;
+			border-right-color: #848484;
+			border-bottom-color: #848484;
+			border-left-color: #848484;
+			color: #FFFFFF;
+			background-color: #273747;
+		}
+    </style>
+</head>
+<body>
+<div>
+	<form method="get" action="exercicio03.php">
+        <label for='l_ini'>Inicio: </label>
+        <input type='number' name='comeco' id='l_ini' min='0' max='100' value='0'/> <br/>
+
+        <label for='l_final'>Final: </label>
+        <input type='number' name='final' id='l_final' min='0' max='100' value='0'/> <br/>
+
+        <label for='l_cont'>Incremento: </label>
+        <input type='number' name='cont' id='l_cont' min='0' max='100' value='0'/> <br/>
+
+        <input type="submit" value="Enviar" class="botao"/>
+    </form>
+</div>
+</body>
+</html>
+ 
